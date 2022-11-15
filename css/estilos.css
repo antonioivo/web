@@ -1,0 +1,37 @@
+.carrossel{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.seta{
+    width: 57px;
+    height: 144px;
+}
+
+.foto{
+    width: 650px;
+    height: 400px;
+}
+
+.oculta{
+    visibility: hidden;
+}
+
+.textos{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}

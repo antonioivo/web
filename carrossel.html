@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática - Javascript carrossel</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body id="pagina">
+
+    <div class="carrossel">
+        <img id="retoceder" class="seta oculta" onclick="trocaFoto('retroceder')" src="imagens/seta_retroceder.png" alt="retroceder">
+        <img id="tela" class="foto" src="imagens/foto1.png" alt="fotos">
+        <img id="avancar" class="seta" onclick="trocaFoto('avancar')" src="imagens/seta_avancar.png" alt="avançar">
+    </div>
+
+    <div class="textos">
+        <h1 id="titulo">Reunião dos programadores</h1>
+        <p id="descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint itaque quisquam qui voluptatem iure facilis voluptates numquam ipsam, animi quo.</p>
+    </div>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
